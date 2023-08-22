@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
+/** DONE BY MOSES AND JOSHUA **/
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
