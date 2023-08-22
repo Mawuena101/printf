@@ -1,5 +1,5 @@
 #include "main.h"
-
+/* Done by Joshua Mawuena and Moses Kuloba */
 /************************* PRINT CHAR *************************/
 
 /**
@@ -28,6 +28,7 @@ int print_char(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
+ * Done by Joshua Mawuena and Moses Kuloba
  * Return: Number of chars printed
  */
 int print_string(va_list types, char buffer[],
@@ -83,6 +84,7 @@ int print_string(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
+ * Done Joshua Mawuena and Moses Kuloba
  * Return: Number of chars printed
  */
 int print_percent(va_list types, char buffer[],
@@ -106,6 +108,7 @@ int print_percent(va_list types, char buffer[],
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
+ * Done by Moses Kuloba and Joshua Mawuena
  * Return: Number of chars printed
  */
 int print_int(va_list types, char buffer[],
@@ -144,6 +147,7 @@ int print_int(va_list types, char buffer[],
 /************************* PRINT BINARY *************************/
 /**
  * print_binary - Prints an unsigned number
+ * By Joshua and Moses
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
